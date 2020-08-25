@@ -1,0 +1,112 @@
+/*চট্টগ্রাম বিভাগ ভিত্তিক ক্যারোসোল বিভিন্ন স্ক্রিনে ঠিক করা */
+@media (max-width: 362px) {
+  h2.discription {
+    font-size: 0.8rem !important;
+  }
+  h4.para {
+    font-size: 0.6rem !important;
+  }
+}
+@media (min-width: 363px) and (max-width: 404px) {
+  h2.discription {
+    font-size: 1rem !important;
+  }
+  h4.para {
+    font-size: small !important;
+  }
+}
+@media (min-width: 405px) and (max-width: 575px) {
+  h2.discription {
+    font-size: large !important;
+  }
+  h4.para {
+    font-size: 0.8rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  h2.discription {
+    font-size: x-large !important;
+  }
+  h4.para {
+    font-size: 1rem !important;
+  }
+}
+ 
+/* চট্টগ্রামের জেলা ভিত্তিক কার্ড বিভিন্ন স্ক্রিনে ঠিক করা */
+@media (max-width: 767px) and (orientation: landscape) {
+  div p .d-none {
+    display: none !important; /*কক্সবাজার ২য় প্যারাগ্রাফ*/
+  }
+  div p.ppp {
+    margin-top: -16px !important; /*কক্সবাজার ৩য় প্যারাগ্রাফ*/
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.res2 {
+    height: 698.38px !important; /*কক্সবাজার কার্ড*/
+  }
+  div.res1 {
+    height: 698.38px !important; /*বান্দরবান কার্ড*/
+  }
+  div.view img {
+    height: 196.77px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  div p.d-none {
+    font-size: 0.9rem !important; /*কক্সবাজার ২য় প্যারাগ্রাফ*/
+    margin-top: -15px !important;
+    margin-bottom: 0px !important;
+  }
+  div p.ppp {
+    margin-bottom: 42px !important; /*কক্সবাজার ৩য় প্যারাগ্রাফ*/
+  }
+  div a.cox-btn {
+    margin-top: -15px !important; /*কক্সবাজার বাটন*/
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  div.res1 {
+    height: 503.53px !important; /*বান্দরবান কার্ড*/
+  }
+  div.res2 {
+    height: 503.53px !important; /*কক্সবাজার কার্ড*/
+  }
+  div.res2 .d-none {
+    display: none !important; /*কক্সবাজার ২য় প্যারাগ্রাফ*/
+  }
+  div p.ppp {
+    margin-top: -16px !important; /*কক্সবাজার ৩য় প্যারাগ্রাফ*/
+  }
+  div a.ban-btn {
+    margin-top: 48px !important; /*বান্দরবান বাটন*/
+  }
+}
+
+@media (min-width: 1200px) {
+  div.res1 {
+    height: 405.88px !important; /*বান্দরবান কার্ড*/
+  }
+  div.res2 {
+    height: 405.88px !important; /*কক্সবাজার কার্ড*/
+  }
+  div.res2 .d-none {
+    display: none !important; /*কক্সবাজার ২য় প্যারাগ্রাফ*/
+  }
+  div p.ppp {
+    margin-top: -16px !important; /*কক্সবাজার ৩য় প্যারাগ্রাফ*/
+    margin-bottom: 1px !important;
+  }
+  div a.ban-btn {
+    margin-top: 28px !important; /*বান্দরবান বাটন*/
+  }
+}
+
+/*বান্দরবান বাটন ঠিক করা */
+div a.ban-btn {
+  color: white !important;
+  background-color: #2e7d32 !important;
+  border: 2px solid #212121 !important;
+}

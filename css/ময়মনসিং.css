@@ -1,0 +1,95 @@
+/*ময়মনসিংহ বিভাগ ভিত্তিক ক্যারোসোল বিভিন্ন স্ক্রিনে ঠিক করা */
+@media (max-width: 362px) {
+  h2.discription {
+    font-size: 0.8rem !important;
+  }
+  h4.para {
+    font-size: 0.6rem !important;
+  }
+}
+@media (min-width: 363px) and (max-width: 404px) {
+  h2.discription {
+    font-size: 1rem !important;
+  }
+  h4.para {
+    font-size: small !important;
+  }
+}
+@media (min-width: 405px) and (max-width: 575px) {
+  h2.discription {
+    font-size: large !important;
+  }
+  h4.para {
+    font-size: 0.8rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  h2.discription {
+    font-size: x-large !important;
+  }
+  h4.para {
+    font-size: 1rem !important;
+  }
+}
+
+/* ময়মনসিংহের জেলা ভিত্তিক কার্ড বিভিন্ন স্ক্রিনে ঠিক করা */
+@media (max-width: 767px) {
+  div p.d-none {
+    display: none !important; /*শেরপুর ২য় প্যারাগ্রাফ*/
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.res1 {
+    height: 776.53px !important; /*ময়মনসিংহ কার্ড*/
+  }
+  div.res2 {
+    height: 657.88px !important; /*শেরপুর কার্ড*/
+  }
+  div.res3 {
+    height: 657.88px !important; /*জামালপুর কার্ড*/
+  }
+  div.view img {
+    height: 196.77px !important;
+  }
+  div a.শেরপুর-btn {
+    margin-top: 28px;
+  }
+  div a.ময়মনসিংহ-btn {
+    margin-top: 28px;
+  }
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+  div.res2 {
+    height: 447.53px !important; /*শেরপুর কার্ড*/
+  }
+  div p.d-none {
+    display: none !important; /*শেরপুর ২য় প্যারাগ্রাফ*/
+  }
+  div p.শেরপুর-p1 {
+    margin-bottom: 0;
+  }
+  div a.শেরপুর-btn {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  div.res3 {
+    height: 377.53px !important; /*জামালপুর কার্ড*/
+  }
+  div p.d-none {
+    display: none !important; /*শেরপুর ২য় প্যারাগ্রাফ*/
+  }
+  div p.শেরপুর-p1 {
+    margin-bottom: 0;
+  }
+}
+
+/*সুনামগঞ্জ বাটন ঠিক করা */
+div a.জামালপুর-btn {
+  color: white !important;
+  background-color: #2e7d32 !important;
+  border: 2px solid #212121 !important;
+  font-size: 0.7rem;
+}
